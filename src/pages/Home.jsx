@@ -3,7 +3,9 @@ import React from 'react'
 const Home = () => {
   return (
     <div>
-      Home
+    <div className='h-screen w-screen bg-red-800 '>
+      <video />
+    </div>
     </div>
   )
 }
