@@ -5,16 +5,16 @@ import herob from '../components/home/herob'
 
 const Home = () => {
   return (
-    <div>
+    <div >
     <div className='h-screen w-screen fixed'>
       <Video />
     </div>
 
-    <div className='relative w-screen h-screen'>
+    <div className='w-screen h-screen relative flex flex-col '>
       <herot />
       <herob />
     </div>
-    
+
     </div>
   )
 }
