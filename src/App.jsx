@@ -9,9 +9,9 @@ const App = () => {
     <div className='text-white text-8xl'>
 
       
-      <Link to='/'> Home</Link>
+      {/* <Link to='/'> Home</Link>
       <Link to='/Agents'> Agents</Link>
-      <Link to='/Projects'> Projects</Link>
+      <Link to='/Projects'> Projects</Link> */}
 
       <Routes>
         <Route path='/' element={<Home />} />
